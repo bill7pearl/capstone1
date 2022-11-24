@@ -26,15 +26,41 @@ body {
   color: #fff;
 }
 
-.mobile-menu {
+#mobile-menu {
     display: none;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    position: fixed;
+    height: 100vh;
+    background: #11316850;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    transition: 0.2s;
 }
 
-.close-icon {
-    display: none;
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 900;
+    font-size: x-large;
 }
 
-.hamburger {
+.nav-item:first-child {
+    margin-top: 100px;
+}
+
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+
+#hamburger {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -50,6 +76,17 @@ body {
     background-color: white;
 }
 
+#close-icon {
+    position: fixed;
+    color: white;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+    font-size: 2.5rem;
+    left: 6%;
+    top: 4%;
+}
+
 .hero {
     padding: 0 16px;
     height: 450px;
@@ -57,16 +94,18 @@ body {
 
 .hero-bg {
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.5;
     width: 100%;
     height: 450px;
     left: 0;
     z-index: -99;
-}
+} 
 
 .welcome-title {
     color: #ec5242;
+    margin-top: 0;
     margin-bottom: 0;
+    padding-top: 10px;
     font-weight: 500;
 }
 
@@ -79,8 +118,8 @@ body {
 
 
 .intro {
-    background-color: #f5f5ff;
-    border: 3px solid rgb(176, 176, 176);
+    background-color: #caddff;
+    border: 3px solid #b7d3fd;
 }
 
 .intro-details {
@@ -103,18 +142,10 @@ font-style: italic;
 .main-program {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    min-height: 700px;
+    min-height: 800px;
     gap: 10px;
     padding: 0 12px;
     background: rgba(0, 0, 0, 0.653);
-}
-
-.programs {
-    display: flex;
-    gap: 10px;
-    padding: 0 12px;
-    background: rgba(255, 255, 255, 0.043);
 }
 
 .programs-title {
@@ -131,9 +162,17 @@ font-style: italic;
     margin: 0 auto;
 }
 
+.programs {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.043);
+}
+
 .programs-titles {
     color: #ec5242;
     align-self: center;
+    width: 90%;
 }
 
 .programs-details {
@@ -143,6 +182,7 @@ font-style: italic;
 .programs-icon {
     width: 10%;
     height: 50%;
+    padding: 0 5px;
     align-self: center;
 }
 
@@ -162,7 +202,7 @@ font-style: italic;
     position: absolute;
     width: 100%;
     left: 0;
-    min-height: 700px;
+    min-height: 800px;
     opacity: 0.5;
     z-index: -99;
 }
