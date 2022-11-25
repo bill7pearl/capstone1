@@ -83,7 +83,7 @@ If you like this project kindly send to me an e-mail expressing it, it would mak
 I would like to thank Microverse team for this journey.
 
 # ❓ FAQ:
-### How do I clone this with all the un-pushed branches?
+### How do I clone this with all the un-merged branches?
 - Kindly check the branches names in github then add them manually on your local machine, after that you may just pull the changes.
 ### How to access the database?
 - It's not available for now I'm still working on it, once it's available I'll update this answer.
