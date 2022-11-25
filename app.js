@@ -1,53 +1,54 @@
+/* eslint-disable no-unused-vars */
 const mobileMenuToggle = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile-menu');
+const closeIcon = document.getElementById('close-icon');
 function showMobileMenu() {
-mobileMenu.style.display = 'flex';
-closeIcon.style.display = 'block'
+  mobileMenu.style.display = 'flex';
+  closeIcon.style.display = 'block';
 }
 
-const closeIcon = document.getElementById('close-icon');
 function closeMobileMenu() {
-    mobileMenu.style.display = 'none';
-    closeIcon.style.display = 'none'
+  mobileMenu.style.display = 'none';
+  closeIcon.style.display = 'none';
 }
 
 const featuredSpeakersData = [
-    {
-        name : 'Bill Stone',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk1.jpg',
-    },
-    {
-        name : 'Kate Windfield',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk2.jpg',
-    },
-    {
-        name : 'Bill Stone',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk1.jpg',
-    },
-    {
-        name : 'Kate Windfield',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk2.jpg',
-    },
-    {
-        name : 'Bill Stone',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk1.jpg',
-    },
-    {
-        name : 'Kate Windfield',
-        description : 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-        jobs : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
-        img : 'images/spk2.jpg',
-    },
+  {
+    name: 'Bill Stone',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk1.jpg',
+  },
+  {
+    name: 'Kate Windfield',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk2.jpg',
+  },
+  {
+    name: 'Bill Stone',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk1.jpg',
+  },
+  {
+    name: 'Kate Windfield',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk2.jpg',
+  },
+  {
+    name: 'Bill Stone',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk1.jpg',
+  },
+  {
+    name: 'Kate Windfield',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+    jobs: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!',
+    img: 'images/spk2.jpg',
+  },
 ];
 
 const featuredSpeakersContainer = document.getElementById('featured-speakers');
