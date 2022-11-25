@@ -113,14 +113,6 @@ body {
     font-weight: 500;
 }
 
-.partner-title {
-    margin-top: 0;
-    color: #fff;
-    font-weight: 900;
-    font-size: xx-large;
-}
-
-
 .intro {
     padding: 0 20px;
     background: #fff;
@@ -225,6 +217,13 @@ text-decoration: underline;
     padding: 20px 0;
     margin: 20px 0;
   }
+
+  .partner-title {
+    margin-top: 0;
+    color: #fff;
+    font-weight: 900;
+    font-size: xx-large;
+}
 
   .partners-list {
     display: flex;

@@ -12,10 +12,16 @@
     <title>Front Page</title>
 </head>
 <body>
-  
+     
+    <section class="admin-panel hide-from-mobile">
+        <img class="social-icons" src="images/fb-icon.png" alt="">
+        <img class="social-icons" src="images/twitter-icon.png" alt="">
+        <p class="social-panel">English</p>
+        <p class="social-panel">My page</p>
+        <p class="social-panel">Logout</p>
+    </section>
     <header class="header-container">
         <img class="header-bg" src="images/head-bg.jpg" alt="">
-        <div> <h2 class="logo">Logo</h2></div>
         <div id="hamburger" onclick="showMobileMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -24,12 +30,22 @@
         <div id="close-icon" onclick="closeMobileMenu()">X</div>
         <nav id="mobile-menu">
                 <a class="nav-item" href="about.html">About</a>
-                <a class="nav-item" href="">Program</a>
+                <a class="nav-item" href="index.html">Program</a>
                 <a class="nav-item" href="">Join</a>
                 <a class="nav-item" href="">Sponsor</a>
                 <a class="nav-item" href="">News</a>
                 <a class="nav-item" href="">CC Campaign</a>
         </nav>
+
+        <nav class="desktop-menu hide-from-mobile">
+            <a class="nav-item-desk" href="about.html">About</a>
+            <a class="nav-item-desk" href="index.html">Program</a>
+            <a class="nav-item-desk" href="">Join</a>
+            <a class="nav-item-desk" href="">Sponsor</a>
+            <a class="nav-item-desk" href="">News</a>
+            <a class="nav-item-desk" href="">CC Campaign</a>
+        </nav>
+        <div> <h2 class="logo">Logo</h2></div>
     </header>
 
     <section class="hero">
@@ -49,32 +65,35 @@
          <img class="main-program-bg" src="images/main-bg.jpg" alt="">
         <h2 class="programs-title">Main Program</h2>
         <hr class="separator">
-        <div class="programs">
-            <img class="programs-icon" src="images/binary.png" alt="">
-            <h3 class="programs-titles">Binary</h3>
-            <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
-        </div>
-        <div class="programs">
-            <img class="programs-icon" src="images/algorithm.png" alt="">
-            <h3 class="programs-titles">Algorithms</h3>
-            <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
-        </div>
-        <div class="programs">
-            <img class="programs-icon" src="images/data-structures.png" alt="">
-            <h3 class="programs-titles">Data Structures</h3>
-            <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
-        </div>
-        <div class="programs">
-            <img class="programs-icon" src="images/memory.png" alt="">
-            <h3 class="programs-titles">Memory</h3>
-            <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
-        </div>
-        <div class="programs">
-            <img class="programs-icon" src="images/computer.png" alt="">
-            <h3 class="programs-titles">Computer Architecture</h3>
-            <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+        <div class="programs-container mobile-container">
+            <div class="programs">
+                <img class="programs-icon" src="images/binary.png" alt="">
+                <h3 class="programs-titles">Binary</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/algorithm.png" alt="">
+                <h3 class="programs-titles">Algorithms</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/data-structures.png" alt="">
+                <h3 class="programs-titles">Data Structures</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/memory.png" alt="">
+                <h3 class="programs-titles">Memory</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/computer.png" alt="">
+                <h3 class="programs-titles">Computer Architecture</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
         </div>
         <button class="join-btn">Join CS for All Course 2022</button>
+        <a class="desktop-btn" href="">SEE THE WHOLE PROGRAM</a>
     </section>
 
     <section id="featured-speakers">
@@ -82,12 +101,51 @@
         <hr class="separator">
         <div class="featured-speakers">
             <div class="speaker-container">
-                <div class="left-side-speaker"></div>
+                <div class="left-side-speaker">
+                    <img class="spk-bg" src="images/d.png.gif" alt="">
+                    <img class="speaker-img" src="images/spk1.jpg" alt="">
+                </div>
                 <div class="right-side-speaker">
-                    <h2 class="speaker-name"></h2>
-                    <p class="speaker-intro"></p>
+                    <h2 class="speaker-name">Bill Stone</h2>
+                    <p class="speaker-intro">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <hr class="speaker-separator">
-                    <p class="speaker-work"></p>
+                    <p class="speaker-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!</p>
+                </div>
+            </div>
+            <div class="speaker-container">
+                <div class="left-side-speaker">
+                    <img class="spk-bg" src="images/d.png.gif" alt="">
+                    <img class="speaker-img" src="images/spk1.jpg" alt="">
+                </div>
+                <div class="right-side-speaker">
+                    <h2 class="speaker-name">Bill Stone</h2>
+                    <p class="speaker-intro">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <hr class="speaker-separator">
+                    <p class="speaker-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!</p>
+                </div>
+            </div>
+            <div class="speaker-container">
+                <div class="left-side-speaker">
+                    <img class="spk-bg" src="images/d.png.gif" alt="">
+                    <img class="speaker-img" src="images/spk1.jpg" alt="">
+                </div>
+                <div class="right-side-speaker">
+                    <h2 class="speaker-name">Bill Stone</h2>
+                    <p class="speaker-intro">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <hr class="speaker-separator">
+                    <p class="speaker-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!</p>
+                </div>
+            </div>
+            <div class="speaker-container">
+                <div class="left-side-speaker">
+                    <img class="spk-bg" src="images/d.png.gif" alt="">
+                    <img class="speaker-img" src="images/spk1.jpg" alt="">
+                </div>
+                <div class="right-side-speaker">
+                    <h2 class="speaker-name">Bill Stone</h2>
+                    <p class="speaker-intro">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <hr class="speaker-separator">
+                    <p class="speaker-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, perspiciatis!</p>
                 </div>
             </div>
             <div class="speaker-container">
@@ -114,9 +172,26 @@
                     <p class="speaker-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quod.</p>
                 </div>
             </div>
-            <button class="more-featured">MORE <img class="more-arrow" src="images/down-arrow.png" alt=""></button>
-        </div> 
+        </div>
+        <button class="more-featured">MORE <img class="more-arrow" src="images/down-arrow.png" alt=""></button> 
     </section>
+
+    <div class="partners hide-from-mobile">
+        <h2 class="partner-title">Partner</h2>
+        <hr class="separator">
+        <div class="partners-list">
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+        </div>
+    </div>
+
+    <footer class="desktop-footer hide-from-mobile">
+        <div class="left-side-footer"><span class="footer-content1">&#169; Creative<br>Commons Algeria</span></div>
+        <div class="right-side-footer"><span class="footer-content2"> 2020 Creative Commons Algeria.<br>Some Rights Reserved</span></div>
+    </footer>
     
 <script src="app.js"></script>    
 </body>
