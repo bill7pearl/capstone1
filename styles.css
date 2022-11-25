@@ -206,3 +206,77 @@ font-style: italic;
     opacity: 0.5;
     z-index: -99;
 }
+
+.featured-speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.featured-speakers-title {
+    display: flex;
+    justify-content: center;
+}
+
+.speaker-container {
+    display: flex;
+    gap: 10px;
+}
+
+.left-side-speaker {
+    align-self: center;
+}
+
+.right-side-speaker {
+    align-self: center;
+    margin-top: 20px;
+}
+
+.spk-bg {
+    position: absolute;
+    z-index: -99;
+}
+
+.speaker-img {
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.speaker-name {
+   margin: 0;
+}
+
+.speaker-intro {
+    color: #ec5242;
+    font-style: italic;
+}
+
+.speaker-separator {
+    width: 10%;
+    margin-left: 0;
+}
+
+.speaker-work {
+    font-size: small;
+}
+
+.more-featured {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.more-arrow {
+    width: 30px;
+    height: 30px;
+}
