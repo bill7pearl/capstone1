@@ -11,11 +11,19 @@
     <link rel="stylesheet" href="about.css">
     <title>About Us</title>
 </head>
+
 <body>
   
+    <section class="admin-panel hide-from-mobile">
+        <img class="social-icons" src="images/fb-icon.png" alt="">
+        <img class="social-icons" src="images/twitter-icon.png" alt="">
+        <p class="social-panel">English</p>
+        <p class="social-panel">My page</p>
+        <p class="social-panel">Logout</p>
+    </section>
+
     <header class="header-container">
         <img class="header-bg" src="images/head-bg.jpg" alt="">
-        <div> <h2 class="logo">Logo</h2></div>
         <div id="hamburger" onclick="showMobileMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -30,22 +38,35 @@
                 <a class="nav-item" href="">News</a>
                 <a class="nav-item" href="">CC Campaign</a>
         </nav>
+
+        <nav class="desktop-menu hide-from-mobile">
+            <a class="nav-item-desk" href="about.html">About</a>
+            <a class="nav-item-desk" href="index.html">Program</a>
+            <a class="nav-item-desk" href="">Join</a>
+            <a class="nav-item-desk" href="">Sponsor</a>
+            <a class="nav-item-desk" href="">News</a>
+            <a class="nav-item-desk" href="">CC Campaign</a>
+        </nav>
+        <div><h2 class="logo hide-from-mobile">Logo</h2></div>
     </header>
 
     <section class="hero">
             <img class="hero-bg" src="images/hero-bg.jpg" alt="">
-            <h2 class="welcome-title">"Hello! Aspiring people"</h1>
-            <h1 class="title">COMPUTER SCIENCE<br>FOR ALL<br>
+            <h2 class="welcome-title hide-from-desk">"Hello! Aspiring people"</h1>
+                <h1 class="title hide-from-mobile">COMPUTER SCIENCE FOR ALL<br>FREE 2022</h1>
+            <h1 class="title hide-from-desk">COMPUTER SCIENCE<br>FOR ALL<br>
             FREE TICKETS 2022</h1>
             <article class="intro">
-                <p class="intro-details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis veritatis corporis iusto, quasi deleniti quisquam voluptates non dolorem magni fugit ducimus consectetur dolore. Laboriosam iste exercitationem at hic placeat! Est.</p>
+                <p class="intro-details hide-from-desk">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis veritatis corporis iusto, quasi deleniti quisquam voluptates non dolorem magni fugit ducimus consectetur dolore. Laboriosam iste exercitationem at hic placeat! Est.</p>
+                <p class="intro-details hide-from-mobile">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta nam doloribus nesciunt qui modi voluptatibus nihil, impedit quasi numquam hic, voluptates aspernatur esse dolorem rerum amet! Consequuntur dolores, autem libero quas, doloribus architecto quia fugiat ut suscipit accusantium porro facere commodi quos fugit magnam? Vitae autem totam iure quibusdam molestias ratione eius harum veniam facilis! Impedit voluptates repudiandae possimus blanditiis eaque illum temporibus nam ipsum inventore, reiciendis architecto necessitatibus, nisi perferendis, alias deserunt beatae libero. Aspernatur, fuga quasi odio velit iure sed in debitis veniam corporis nam similique neque excepturi natus quas. Consequatur voluptas unde mollitia officiis? Quisquam, magnam.</p>
             </article>
             <p class="event-time">Please contact us per e-mail for any further questions about CS for All 2022</p>
             <p class="event-place">Billal7chami@gmail.com</p>
     </section>
 
     <section class="about-details">
-       <h2 class="title">Creative Commons<br>CS for All 2022</h2>
+       <h2 class="title hide-from-desk">Creative Commons<br>CS for All 2022</h2>
+       <h2 class="title title2 hide-from-mobile">Creative Commons CS for All 2022</h2>
         <hr class="separator">
         <p class="about-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, odio.</p>
         <img class="cs-logo" src="images/bg.jpg" alt="">
@@ -61,7 +82,7 @@
                 <p class="red-filter-content"><span class="year">2020</span><br>CS for All 2020 online</p>
             </div>
         </div>
-        <div class="partners">
+        <div class="partners hide-from-desk">
             <h2 class="partner-title">Partner</h2>
             <hr class="separator">
             <div class="partners-list">
