@@ -26,7 +26,7 @@ First Capstone Project is is the first Capstone project in my Microverse journey
 https://bill7pearl.github.io/capstone1
 
 # Presentation Video:
-- https://www.loom.com/share/60b34a2db8184557b1442f1ce58b38bb
+- https://www.loom.com/share/45293f533fd7499988b3ab2f96389e03
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
