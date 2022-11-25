@@ -1,117 +1,92 @@
 
-📖 [First Capstone Project]
-[First Capstone Project] is is the first Capstone project in my Microverse journey.
+# First Capstone Project
+First Capstone Project is is the first Capstone project in my Microverse journey.
+
+# 🛠 Built With
+### Tech Stack:
+- HTML5. 
+- CSS3.
+- Javascript.
+
+### Client:
+- HTML.
+- CSS.
+- JS.
+### Server:
+- local.
+### Database:
+- N/A.
+
+# Key Features:
+- HTML5 semantics.
+- CSS3 Flexbox.
+- Javascript dynamic content.
+
+# 🚀 Live Demo:
+https://bill7pearl.github.io/capstone1
+
+# Presentation Video:
 
 
-🛠 Built With
-Tech Stack:
-HTML5 
-CSS3
-Javascript
-
-Client HTML CSS JS
-Server
-Database
-
-Key Features
-
-[HTML5 semantics]
-[CSS3 Flexbox]
-[Javascript dynamic content]
-(back to top)
-
-🚀 Live Demo
-Live Demo Link
-(back to top)
-
-💻 Getting Started
-To get a local copy up and running, follow these steps:
+# 💻 Getting Started:
+### To get a local copy up and running, follow these steps:
 - Installed Git.
 - Clone this repository to your local machine.
+- Open in a web browser.
 
-Prerequisites
-In order to run this project you need:
-Installed Git
-A browser
+# Prerequisites:
+### In order to run this project you need:
+- Installed Git.
+- A browser.
 
-Setup
-Clone this repository to your desired folder:
+# Setup:
+- Clone this repository to your desired folder.
 
-Install
-Install this project with:
-Git and Github
+# Install:
+### Install this project with:
+- Git.
+- Github.
 
-Usage
-To run the project, execute the following command:
+# Usage:
+### To run the project, execute the following command:
+- git clone https://github.com/bill7pearl/capstone1.git
 
-Run tests
-To run tests, run the following command:
-npx eslint .
+# Run tests:
+### To run tests, run the following command:
+- npx eslint .
+- npx stylelint "**/*.{css,scss}"
 
-Deployment
-You can deploy this project using:
-Github pages.
+# Deployment:
+### You can deploy this project using:
+- Github pages.
 
-(back to top)
+# 👥 Authors:
+### 👤 Billal Chami:
+- GitHub: [@bill7pearl](https://github.com/bill7pearl)
+- Twitter: [@billchami](https://twitter.com/BillChami)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/billal-chami-263497194/)
 
-👥 Authors
-Mention all of the collaborators of this project.
+# 🔭 Future Features:
+- Use advanced JS data structures.
+- Implement some awesome animations and transitions to the design.
+- Integrate back-end.
 
-👤 Author1
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-👤 Author2
-
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-(back to top)
-
-🔭 Future Features
-Describe 1 - 3 features you will add to the project.
-
- [new_feature_1]
- [new_feature_2]
- [new_feature_3]
-(back to top)
-
-🤝 Contributing
+# 🤝 Contributing:
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the issues page.
 
-(back to top)
+# ⭐️ Show your support
+If you like this project kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
 
-⭐️ Show your support
-Write a message to encourage readers to support your project
+# 🙏 Acknowledgments:
+I would like to thank Microverse team for this journey.
 
-If you like this project...
+# ❓ FAQ:
+### How do I clone this with all the un-pushed branches?
+- Kindly check the branches names in github then add them manually on your local machine, after that you may just pull the changes.
+### How to access the database?
+- It's not available for now I'm still working on it, once it's available I'll update this answer.
 
-(back to top)
-
-🙏 Acknowledgments
-Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-(back to top)
-
-❓ FAQ
-Add at least 2 questions new developers would ask when they decide to use your project.
-
-[Question_1]
-
-[Answer_1]
-[Question_2]
-
-[Answer_2]
-(back to top)
-
-📝 License
+# 📝 License:
 This project is MIT licensed.
-
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
-
-(back to top)

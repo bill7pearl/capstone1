@@ -356,11 +356,11 @@ body {
   }
 
   .welcome-title {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .title {
-    font-size: 70px;
+    font-size: 90px;
   }
 
   .intro {
@@ -396,7 +396,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 5px;
-    width: 70%;
+    width: 90%;
     align-self: center;
   }
 
