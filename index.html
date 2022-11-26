@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Front Page</title>
+</head>
+<body>
+     
+    <section class="admin-panel hide-from-mobile">
+        <img class="social-icons" src="images/fb-icon.png" alt="">
+        <img class="social-icons" src="images/twitter-icon.png" alt="">
+        <p class="social-panel">English</p>
+        <p class="social-panel">My page</p>
+        <p class="social-panel">Logout</p>
+    </section>
+    <header class="header-container">
+        <img class="header-bg" src="images/head-bg.jpg" alt="">
+        <div id="hamburger" onclick="showMobileMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div id="close-icon" onclick="closeMobileMenu()">X</div>
+        <nav id="mobile-menu">
+                <a class="nav-item" href="about.html">About</a>
+                <a class="nav-item" href="index.html">Program</a>
+                <a class="nav-item" href="">Join</a>
+                <a class="nav-item" href="">Sponsor</a>
+                <a class="nav-item" href="">News</a>
+                <a class="nav-item" href="">CC Campaign</a>
+        </nav>
+
+        <nav class="desktop-menu hide-from-mobile">
+            <a class="nav-item-desk" href="about.html">About</a>
+            <a class="nav-item-desk" href="index.html">Program</a>
+            <a class="nav-item-desk" href="">Join</a>
+            <a class="nav-item-desk" href="">Sponsor</a>
+            <a class="nav-item-desk" href="">News</a>
+            <a class="nav-item-desk" href="">CC Campaign</a>
+        </nav>
+        <div><h2 class="logo hide-from-mobile">Logo</h2></div>
+    </header>
+
+    <section class="hero">
+            <img class="hero-bg" src="images/hero-bg.jpg" alt="">
+            <h2 class="welcome-title">"Hello! Aspiring people"</h1>
+            <h1 class="title">COMPUTER SCIENCE<br>FOR ALL<br>
+            FREE TICKETS 2022</h1>
+            <article class="intro">
+                <p class="intro-details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis veritatis corporis iusto, quasi deleniti quisquam voluptates non dolorem magni fugit ducimus consectetur dolore. Laboriosam iste exercitationem at hic placeat! Est.</p>
+            </article>
+            <p class="event-time">27.11.2022(Sat)-(Sun)</p>
+            <p class="event-place">@ Online Zoom Hosted session</p>
+       
+    </section>
+
+    <section class="main-program">
+         <img class="main-program-bg" src="images/main-bg.jpg" alt="">
+        <h2 class="programs-title">Main Program</h2>
+        <hr class="separator">
+        <div class="programs-container mobile-container">
+            <div class="programs">
+                <img class="programs-icon" src="images/binary.png" alt="">
+                <h3 class="programs-titles">Binary</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/algorithm.png" alt="">
+                <h3 class="programs-titles">Algorithms</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/data-structures.png" alt="">
+                <h3 class="programs-titles">Data Structures</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/memory.png" alt="">
+                <h3 class="programs-titles">Memory</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+            <div class="programs">
+                <img class="programs-icon" src="images/computer.png" alt="">
+                <h3 class="programs-titles">Computer Architecture</h3>
+                <p class="programs-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, error!</p>
+            </div>
+        </div>
+        <button class="join-btn">Join CS for All Course 2022</button>
+        <a class="desktop-btn" href="">SEE THE WHOLE PROGRAM</a>
+    </section>
+
+    <section id="featured-speakers">
+        
+    </section>
+
+    <div class="partners hide-from-mobile">
+        <h2 class="partner-title">Partner</h2>
+        <hr class="separator">
+        <div class="partners-list">
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+            <p class="partners-logo">LOGO</p>
+        </div>
+    </div>
+
+    <footer class="desktop-footer hide-from-mobile">
+        <div class="left-side-footer"><span class="footer-content1">&#169; Creative<br>Commons Algeria</span></div>
+        <div class="right-side-footer"><span class="footer-content2"> 2020 Creative Commons Algeria.<br>Some Rights Reserved</span></div>
+    </footer>
+    
+<script src="app.js"></script>    
+</body>
+</html>
